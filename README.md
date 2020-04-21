@@ -1,6 +1,8 @@
 # Xyaneon.Games
 
 [![License](https://img.shields.io/github/license/Xyaneon/Xyaneon.Games)][License]
+[![Build Status](https://travis-ci.com/Xyaneon/Xyaneon.Games.svg?branch=master)][Travis CI]
+
 ![Icon]
 
 A .NET Standard metapackage for card and board game functionality and
@@ -23,5 +25,6 @@ using the links above.
 
 [Icon]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/images/icon.png
 [License]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/LICENSE.txt
+[Travis CI]: https://travis-ci.com/Xyaneon/Xyaneon.Games
 [Xyaneon.Games.Cards]: https://github.com/Xyaneon/Xyaneon.Games.Cards
 [Xyaneon.Games.Dice]: https://github.com/Xyaneon/Xyaneon.Games.Dice
