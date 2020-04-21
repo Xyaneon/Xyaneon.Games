@@ -1,15 +1,15 @@
 language: csharp
-mono: none
 dist: bionic
-dotnet: 2.2.103
+install:
+  - curl -L -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 script:
-  - nuget pack Xyaneon.Games.nuspec
+  - mono nuget.exe pack Xyaneon.Games.nuspec
 deploy:
   skip_cleanup: true
   provider: script
   script:
-    - nuget setApiKey $NUGET_API_KEY
-    - nuget push Xyaneon.Games.nupkg -Source https://api.nuget.org/v3/index.json
+    - mono nuget.exe setApiKey $NUGET_API_KEY
+    - mono nuget.exe push Xyaneon.Games.nupkg -Source https://api.nuget.org/v3/index.json
   on:
     tags: true
     condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$
