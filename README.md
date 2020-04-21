@@ -21,7 +21,7 @@ Please see the [LICENSE.txt][License] file for details.
 Individual package dependencies are also MIT-licensed. You may review them
 using the links above.
 
-[Icon]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/Xyaneon.Games/images/icon.png
+[Icon]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/images/icon.png
 [License]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/LICENSE.txt
 [Xyaneon.Games.Cards]: https://github.com/Xyaneon/Xyaneon.Games.Cards
 [Xyaneon.Games.Dice]: https://github.com/Xyaneon/Xyaneon.Games.Dice
