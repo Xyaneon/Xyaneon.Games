@@ -8,6 +8,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/Xyaneon/Xyaneon.Games</projectUrl>
+    <icon>images\icon.png</icon>
     <iconUrl>https://github.com/Xyaneon/Xyaneon.Games/blob/master/images/icon.png</iconUrl>
     <description>A .NET Standard metapackage for card and board game functionality and components, such as dice and cards.</description>
     <releaseNotes>Initial release.</releaseNotes>
@@ -20,4 +21,7 @@
       </group>
     </dependencies>
   </metadata>
+  <files>
+    <file src="images\icon.png" target="images\"/>
+  </files>
 </package>
