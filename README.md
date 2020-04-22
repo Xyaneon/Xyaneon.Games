@@ -1,6 +1,7 @@
 # Xyaneon.Games
 
 [![License](https://img.shields.io/github/license/Xyaneon/Xyaneon.Games)][License]
+[![NuGet](https://img.shields.io/nuget/v/Xyaneon.Games.svg?style=flat)][NuGet package]
 [![Build Status](https://travis-ci.com/Xyaneon/Xyaneon.Games.svg?branch=master)][Travis CI]
 
 ![Icon]
@@ -25,6 +26,7 @@ using the links above.
 
 [Icon]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/images/icon.png
 [License]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/LICENSE.txt
+[NuGet package]: https://www.nuget.org/packages/Xyaneon.Games/
 [Travis CI]: https://travis-ci.com/Xyaneon/Xyaneon.Games
 [Xyaneon.Games.Cards]: https://github.com/Xyaneon/Xyaneon.Games.Cards
 [Xyaneon.Games.Dice]: https://github.com/Xyaneon/Xyaneon.Games.Dice
