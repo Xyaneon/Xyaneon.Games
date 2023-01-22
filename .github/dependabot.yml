@@ -8,11 +8,6 @@ updates:
     commit-message:
       prefix: "ci"
       include: "scope"
-      
-  - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "bump"
-      include: "scope"
+    
+  # No Dependabot updates for .nuspec projects available yet.
+  # See: https://github.com/dependabot/dependabot-core/issues/1182
