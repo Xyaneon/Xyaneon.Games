@@ -1,0 +1,22 @@
+name: Packaging check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  package:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up NuGet.exe
+      uses: NuGet/setup-nuget@v1.1.1
+    
+    - name: Package .nuspec file
+      run: nuget pack Xyaneon.Games.nuspec
+    
+    # TODO: Publish to nuget.org only on valid pushes to main
