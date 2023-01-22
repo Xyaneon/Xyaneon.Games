@@ -24,8 +24,8 @@ Please see the [LICENSE.txt][License] file for details.
 Individual package dependencies are also MIT-licensed. You may review them
 using the links above.
 
-[Icon]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/images/icon.png
-[License]: https://github.com/Xyaneon/Xyaneon.Games/blob/master/LICENSE.txt
+[Icon]: https://github.com/Xyaneon/Xyaneon.Games/blob/main/images/icon.png
+[License]: https://github.com/Xyaneon/Xyaneon.Games/blob/main/LICENSE.txt
 [NuGet package]: https://www.nuget.org/packages/Xyaneon.Games/
 [Xyaneon.Games.Cards]: https://github.com/Xyaneon/Xyaneon.Games.Cards
 [Xyaneon.Games.Dice]: https://github.com/Xyaneon/Xyaneon.Games.Dice
