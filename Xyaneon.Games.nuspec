@@ -12,7 +12,7 @@
     <iconUrl>https://github.com/Xyaneon/Xyaneon.Games/blob/master/images/icon.png</iconUrl>
     <description>A .NET Standard metapackage for card and board game functionality and components, such as dice and cards.</description>
     <releaseNotes>Initial release.</releaseNotes>
-    <copyright>Copyright © Christopher Kyle Horton 2020</copyright>
+    <copyright>Copyright © Christopher Kyle Horton 2020-2023</copyright>
     <tags>metapackage games cards dice board pieces components</tags>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
